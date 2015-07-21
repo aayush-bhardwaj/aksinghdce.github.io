@@ -16,18 +16,11 @@
 
     <!-- Include the jQuery Mobile library -->
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <style>
-        .myfoot {
-            position: fixed;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-        }
-    </style>
+
 </head>
 <body>
 <div data-role="page" id="home">
-    <div data-role="header">
+    <div data-role="header" data-position="fullscreen">
         <h1>Welcome to my Homepage</h1>
     </div>
 
@@ -35,7 +28,7 @@
         Welcome!
     </div>
 
-    <div data-role="footer" class="myfoot">
+    <div data-role="footer" data-position="fixed" data-fullscreen="true">
         <h1>Footer text</h1>
     </div>
 
