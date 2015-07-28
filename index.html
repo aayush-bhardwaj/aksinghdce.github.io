@@ -11,6 +11,9 @@
     <!-- Include jQuery Mobile stylesheets -->
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <!-- Include the jQuery library -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -19,17 +22,39 @@
 
 </head>
 <body>
+	    <script type="text/javascript" src="//www.google.co.in/trends/embed.js?hl=en-US&q=h1b+status&tz=Etc/GMT-5:30&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
 <div data-role="page" id="home">
-    <div data-role="header" data-position="fullscreen">
-        <h1>Welcome to my Homepage</h1>
+    <div data-role="header" data-position="fixed">
+        <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <a href="#" class="ui-btn ui-icon-search ui-btn-icon-left">Search</a>
+        </div>
+
     </div>
 
-    <div data-role="main" class="ui-content">
-        Welcome!
+    <div data-role="main" class="ui-content main-content">
+        <div data-role="collapsible">
+            <h3>Recipe 1: fibonacci generator</h3>
+            <p>
+                <pre>
+            <code class="python">
+                def fibo_generator(N=10000):
+                    n1 = 0
+                    n2 = 1
+                    while n2 <= N:
+                        n2, n1 = n2 + n1, n2
+                        if n2 < N:
+                        yield n2
+                    raise StopIteration
+            </code>
+            </pre>
+
+            </p>
+        </div>
     </div>
 
     <div data-role="footer" data-position="fixed" data-fullscreen="true">
-        <h1>Footer text</h1>
+        <h1>Factory of python Engineers</h1>
     </div>
 
 </div>
