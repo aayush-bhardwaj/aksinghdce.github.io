@@ -38,18 +38,31 @@
             <p>
                 <pre>
             <code class="python">
+                #!/usr/bin/env python
                 def fibo_generator(N=10000):
                     n1 = 0
                     n2 = 1
                     while n2 <= N:
                         n2, n1 = n2 + n1, n2
                         if n2 < N:
-                        yield n2
+                            yield n2
                     raise StopIteration
+
+                if __name__ == '__main__':
+                    for i in fibo_generator(N=1000):
+                        print(i)
+
             </code>
             </pre>
 
             </p>
+            <p>
+                <iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=%23!/usr/bin/env+python%0A%0A%0Adef+fibo_generator(N%3D10000%29%3A%0A++++n1+%3D+0%0A++++n2+%3D+1%0A++++while+n2+%3C%3D+N%3A%0A++++++++n2,+n1+%3D+n2+%2B+n1,+n2%0A++++++++if+n2+%3C+N%3A%0A++++++++++++yield+n2%0A++++raise+StopIteration%0A%0Aif+__name__+%3D%3D+'__main__'%3A%0A++++for+i+in+fibo_generator(N%3D1000%29%3A%0A++++++++print(i%29%0A&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=2&rawInputLstJSON=%5B%5D&curInstr=57&codeDivWidth=350&codeDivHeight=400"> </iframe>
+            </p>
+        </div>
+
+        <div data-role="collapsible">
+
         </div>
     </div>
 
