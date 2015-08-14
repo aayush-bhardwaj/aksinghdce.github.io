@@ -4,6 +4,10 @@
 
 <meta charset="utf-8" />
 <title>index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -169,6 +173,16 @@ div#notebook {
 
 </head>
 <body>
+
+<div data-role="header" data-position="fixed">
+	<div data-role="navbar">
+          <ul>
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="one.html">Blog</a></li>
+	  </ul>
+	</div><!-- /navbar -->
+	</div>
+	<div data-role="content">
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -265,6 +279,15 @@ Our mission is to provide quality professionals to the industry; and from the in
 </div>
 </div>
     </div>
+    <div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+          <ul>
+	    <li><a href="contact.html">Contact Us</a></li>
+	    <li><a href="career.html">Careers</a></li>
+	  </ul>
+	</div><!-- /navbar -->
+    </div><!-- /footer -->
+			</div>
   </div>
 </body>
 </html>
