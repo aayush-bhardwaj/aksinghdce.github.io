@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>[]</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+
 <style type="text/css">
     article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
@@ -1527,58 +1532,15 @@ init_mathjax();
 <body>
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="checkinio.org-profile">checkinio.org profile<a class="anchor-link" href="#checkinio.org-profile">&#182;</a></h1>
+<h1 id="checkio.org-problems-with-pythontutor">checkio.org problems with pythontutor<a class="anchor-link" href="#checkio.org-problems-with-pythontutor">&#182;</a></h1>
 </div>
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="https://www.checkio.org/user/aksinghdce/" width=100% height="300px"></iframe>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="LinkedIn-Profile">LinkedIn Profile<a class="anchor-link" href="#LinkedIn-Profile">&#182;</a></h1>
+<h2 id="1.-Count-Word">1. Count Word<a class="anchor-link" href="#1.-Count-Word">&#182;</a></h2>
 </div>
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-<script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/amit-kumar-singh/7/138/131" data-format="inline" data-related="false"></script>
-
-<script src="//platform.linkedin.com/in.js" type="text/javascript">extensions: AlumniFacet@//www.linkedin.com/edu/alumni-facet-extension-js</script>
-<script type="IN/AlumniFacet" data-linkedin-schoolid="20357"></script>
-
-<div class="li-alumni-widget">
-<a href="//www.linkedin.com/edu/delhi-college-of-engineering-20357" target="_li">Visit Delhi College of Engineering on LinkedIn</a> | <a href="//www.linkedin.com/edu/" target="_li">LinkedIn for Education</a>
-</div>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Favorite-blogs">Favorite blogs<a class="anchor-link" href="#Favorite-blogs">&#182;</a></h1>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="http://opensourceforu.efytimes.com/2015/08/open-source-and-problem-solving-attitude-is-the-way-to-work-at-zopper/" width=100% height="400px"></iframe>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-concepts">Python concepts<a class="anchor-link" href="#Python-concepts">&#182;</a></h1>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="use-getattr-to-access-methods-of-objects-by-name.">use getattr to access methods of objects by name.<a class="anchor-link" href="#use-getattr-to-access-methods-of-objects-by-name.">&#182;</a></h2>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="http://www.diveintopython.net/power_of_introspection/getattr.html" width=100% height="400px"></iframe>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="use-(1-and-[a]-or[b])[0]-to-mimic-bool-?a:b">use (1 and [a] or[b])[0] to mimic bool ?a:b<a class="anchor-link" href="#use-(1-and-[a]-or[b])[0]-to-mimic-bool-?a:b">&#182;</a></h2>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="http://www.diveintopython.net/power_of_introspection/and_or.html" width=100% height="400px"></iframe>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="init-methods-are-optional,-but-when-you-define-one,-you-must-remember-to-explicitly-call-the-ancestor's-init-method-(if-it-defines-one)."><strong>init</strong> methods are optional, but when you define one, you must remember to explicitly call the ancestor's <strong>init</strong> method (if it defines one).<a class="anchor-link" href="#init-methods-are-optional,-but-when-you-define-one,-you-must-remember-to-explicitly-call-the-ancestor's-init-method-(if-it-defines-one).">&#182;</a></h2>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="http://www.diveintopython.net/object_oriented_framework/defining_classes.html#d0e11896" width=100% height="400px"></iframe>
+<iframe width=100% height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=%23!/usr/bin/env+python%0Aimport+re%0A%0A%0AVOWELS+%3D+%22AEIOUY%22%0ACONSONANTS+%3D+%22BCDFGHJKLMNPQRSTVWXZ%22%0A%0Adef+is_alternating_vc(word%29%3A%0A++++for+i+in+range(len(word%29+-+1%29%3A%0A++++++++if+word%5Bi%5D+in+VOWELS+and+word%5Bi%2B1%5D+in+VOWELS%3A%0A++++++++++++return+False%0A++++++++if+word%5Bi%5D+in+CONSONANTS+and+word%5Bi%2B1%5D+in+CONSONANTS%3A%0A++++++++++++return+False%0A++++return+True%0A%0A%0Adef+checkio(text%29%3A%0A++++%22%22%22count+real+words%22%22%22%0A++++count+%3D+0%0A++++%23+get+the+words+in+upper+case%0A++++text+%3D+text.upper(%29%0A++++%23+split+on+punctuations%0A++++text2+%3D+re.split(ur'%5CW',+text%29%0A++++for+word+in+text2%3A%0A++++++++m+%3D+re.match(ur'%5BA-Za-z%5D*%5Cd%5BA-Za-z%5D*',+word%29%0A++++++++if+len(word%29+%3E+1+and+is_alternating_vc(word%29+and+not+m%3A%0A++++++++++++count+%2B%3D+1%0A++++return+count%0A%0A%23+These+%22asserts%22+using+only%0A%23+for+self-checking+and+not+necessary+for+auto-testing%0Aif+__name__+%3D%3D+'__main__'%3A%0A++++assert+checkio(u%22My+name+is+...%22%29+%3D%3D+3,+%22All+words+are+striped%22%0A++++assert+checkio(u%22Hello+world%22%29+%3D%3D+0,+%22No+one%22%0A++++assert+checkio(u%22A+quantity+of+striped+words.%22%29+%3D%3D+1,+%22Only+of%22%0A++++assert+checkio(u%22Dog,cat,mouse,bird.Human.%22%29+%3D%3D+3,+%22Dog,+cat+and+human%22%0A&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=2&rawInputLstJSON=%5B%5D&curInstr=4&codeDivWidth=350&codeDivHeight=400"> </iframe>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
