@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (mentor.vue) 2015-08-22 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/home/oem/Documents/Work/VUE/VUE.Generic.Linux.release/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sat Aug 22 19:37:25 IST 2015 by oem on platform Linux 3.13.0-24-generic in JVM 1.7.0_79-b14 -->
+<!-- Do Not Remove: Saved date Sat Aug 22 19:31:59 IST 2015 by oem on platform Linux 3.13.0-24-generic in JVM 1.7.0_79-b14 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="mentor.vue"
-    created="1440153806327" x="0.0" y="0.0" width="1126.8336"
-    height="1173.5" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1440252445180" size="27312"
+    created="1440153806327" x="0.0" y="0.0" width="1995.5"
+    height="669.3" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1440252119171" size="11600"
         spec="/home/oem/Documents/Work/github.io/aksinghdce.github.io/mentor.vue"
         type="1" xsi:type="URLResource">
         <title>mentor.vue</title>
@@ -20,8 +20,8 @@
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/4fe858d710b3d16600b3589d5cae5422</URIString>
     <child ID="7" label="personal page" layerID="1"
-        created="1440153854021" x="709.38477" y="201.05887"
-        width="130.0" height="27.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        created="1440153854021" x="579.5" y="278.5" width="130.0"
+        height="27.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <notes>the content of this page can be:%nl;1. A picture of a physical notebook%nl;2. An YouTube video%nl;3. A whatsapp message%nl;4. A text note%nl;5. An image%nl;6. A voice clip%nl;%nl;Think of this as a whiteboard, which is written over by the mentor and the student alike in order to understand the concept</notes>
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -31,8 +31,8 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="9" label="mentor" layerID="1" created="1440153896037"
-        x="1020.8336" y="119.10455" width="67.0" height="30.0"
-        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        x="916.0" y="191.0" width="67.0" height="30.0" strokeWidth="1.0"
+        autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -42,21 +42,21 @@
     </child>
     <child ID="10"
         label="coaches privately&#xa;until the student has learnt&#xa;the concept"
-        layerID="1" created="1440153940422" x="820.8594" y="142.92361"
-        width="201.54767" height="58.635254" strokeWidth="1.0"
+        layerID="1" created="1440153940422" x="691.8779" y="214.6713"
+        width="225.59595" height="64.328705" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/4fe858dc10b3d16600b3589d0d87139d</URIString>
-        <point1 x="1021.90704" y="143.42361"/>
-        <point2 x="821.3594" y="201.05887"/>
+        <point1 x="916.9739" y="215.1713"/>
+        <point2 x="692.3779" y="278.5"/>
         <ID1 xsi:type="node">9</ID1>
         <ID2 xsi:type="node">7</ID2>
     </child>
     <child ID="13" label="public page" layerID="1"
-        created="1440154093325" x="695.96423" y="23.569275"
-        width="112.0" height="27.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        created="1440154093325" x="565.0" y="89.0" width="112.0"
+        height="27.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <notes>Contents of this page are derived out of the personal page.%nl;%nl;Enough data is provided to make the concept easily graspable.</notes>
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -67,21 +67,21 @@
     </child>
     <child ID="14"
         label="after the student understood&#xa;the concept&#xa;the concept goes to public page"
-        layerID="1" created="1440154104994" x="671.6745" y="50.069336"
-        width="183.0" height="151.48975" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        layerID="1" created="1440154104994" x="541.25" y="115.5"
+        width="183.0" height="163.5" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/4fe858df10b3d16600b3589de7b3264a</URIString>
-        <point1 x="772.67944" y="201.05908"/>
-        <point2 x="753.66956" y="50.569336"/>
+        <point1 x="642.82587" y="278.5"/>
+        <point2 x="622.67413" y="116.0"/>
         <ID1 xsi:type="node">7</ID1>
         <ID2 xsi:type="node">13</ID2>
     </child>
     <child ID="15" label="student" layerID="1" created="1440154182218"
-        x="494.19348" y="284.8864" width="77.0" height="23.0"
-        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        x="347.0" y="368.0" width="77.0" height="23.0" strokeWidth="1.0"
+        autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -90,21 +90,21 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="16" label="requests mentorship&#xa;on a particular topic"
-        layerID="1" created="1440154192805" x="564.11835" y="227.55884"
-        width="170.89197" height="58.519028" strokeWidth="1.0"
+        layerID="1" created="1440154192805" x="416.96777" y="305.0"
+        width="188.07227" height="64.2001" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/4fe858e010b3d16600b3589d413c975a</URIString>
-        <point1 x="564.61835" y="285.57788"/>
-        <point2 x="734.5103" y="228.05885"/>
+        <point1 x="417.46777" y="368.7001"/>
+        <point2 x="604.54004" y="305.5"/>
         <ID1 xsi:type="node">15</ID1>
         <ID2 xsi:type="node">7</ID2>
     </child>
     <child ID="17"
         label="github branches can be used to create the personal page. The public page &#xa;      can be the github.io page"
-        layerID="1" created="1440154563119" x="740.3908" y="304.55548"
+        layerID="1" created="1440154563119" x="613.0" y="389.0"
         width="150.0" height="78.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
@@ -134,20 +134,20 @@
       can be the github.io page</label>
     </child>
     <child ID="19" label="how to!!" layerID="1" created="1440154627178"
-        x="768.8348" y="227.55884" width="44.0" height="77.49658"
+        x="640.1719" y="305.0" width="44.0" height="84.5"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/4fe858e410b3d16600b3589d02a77f99</URIString>
-        <point1 x="802.99335" y="304.55542"/>
-        <point2 x="778.6762" y="228.05884"/>
+        <point1 x="675.52576" y="389.0"/>
+        <point2 x="648.818" y="305.5"/>
         <ID1 xsi:type="text">17</ID1>
         <ID2 xsi:type="node">7</ID2>
     </child>
     <child ID="20" label="Whats in it for Mentor?" layerID="1"
-        created="1440250724289" x="399.1676" y="586.5179" width="181.0"
+        created="1440250724289" x="1279.5" y="137.7" width="181.0"
         height="61.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#F1A83E</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -157,7 +157,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="21" label="Use Case: Enterprenuer" layerID="1"
-        created="1440250753506" x="703.2799" y="500.18915" width="190.0"
+        created="1440250753506" x="1576.5" y="42.7" width="190.0"
         height="52.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <notes>You are an Entreprenuer and you know how to design your product, you know how to mentor a software engineer so that he can develop your project. This is your opportunity to advertise yourself as a Mentor.</notes>
         <fillColor>#F1A83E</fillColor>
@@ -168,7 +168,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="22" label="Parent" layerID="1" created="1440251076400"
-        x="713.51935" y="579.2481" width="147.0" height="62.0"
+        x="1586.5" y="129.7" width="147.0" height="62.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <notes>You prepare study material for your kid and gauge him on his progress. You can share your tutorials with other kids in a remote underprivelged area.</notes>
         <fillColor>#F1A83E</fillColor>
@@ -179,7 +179,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="23" label="Trade mentorship" layerID="1"
-        created="1440251199267" x="687.5" y="759.7" width="174.0"
+        created="1440251199267" x="1582.5" y="231.7" width="174.0"
         height="70.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <notes>You can teach something to someone you can learn from and vice versa</notes>
         <fillColor>#F1A83E</fillColor>
@@ -190,7 +190,7 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="24" label="Educate your customer" layerID="1"
-        created="1440251267459" x="467.5" y="853.7" width="185.0"
+        created="1440251267459" x="1362.5" y="325.7" width="185.0"
         height="70.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <notes>Educate your customer about your product: Advertise</notes>
         <fillColor>#F1A83E</fillColor>
@@ -201,59 +201,59 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="25" label="Form a team" layerID="1"
-        created="1440251337398" x="577.75" y="551.28906"
-        width="134.0481" height="40.157837" strokeWidth="1.0"
+        created="1440251337398" x="1455.7478" y="94.20001"
+        width="137.46814" height="46.036743" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b7489a7f0001011bedb2d0aff2d48f</URIString>
-        <point1 x="578.25" y="590.9469"/>
-        <point2 x="711.2981" y="551.78906"/>
+        <point1 x="1456.2478" y="139.73676"/>
+        <point2 x="1592.716" y="94.70001"/>
         <ID1 xsi:type="node">20</ID1>
         <ID2 xsi:type="node">21</ID2>
     </child>
     <child ID="26" label="teach&#xa; underprivileged" layerID="1"
-        created="1440251360262" x="579.6676" y="599.43945"
-        width="134.35175" height="28.0" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        created="1440251360262" x="1460.0" y="150.23016" width="127.0"
+        height="28.0" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b7489c7f0001011bedb2d0bab2bef2</URIString>
-        <point1 x="580.1676" y="614.95746"/>
-        <point2 x="713.51935" y="611.92145"/>
+        <point1 x="1460.5" y="165.85947"/>
+        <point2 x="1586.5" y="162.60086"/>
         <ID1 xsi:type="node">20</ID1>
         <ID2 xsi:type="node">22</ID2>
     </child>
     <child ID="27" label="exchange&#xa;your skills" layerID="1"
-        created="1440251382959" x="538.0605" y="647.01794"
-        width="180.83289" height="113.18207" strokeWidth="1.0"
+        created="1440251382959" x="1455.8455" y="196.09744"
+        width="127.8385" height="42.714783" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b7489d7f0001011bedb2d00e5b7ca7</URIString>
-        <point1 x="538.5605" y="647.51794"/>
-        <point2 x="718.3934" y="759.7"/>
+        <point1 x="1456.3455" y="196.59744"/>
+        <point2 x="1583.184" y="238.31223"/>
         <ID1 xsi:type="node">20</ID1>
         <ID2 xsi:type="node">23</ID2>
     </child>
     <child ID="28" label="Advertise" layerID="1" created="1440251398808"
-        x="497.06335" y="647.0178" width="54.375946" height="207.18225"
+        x="1382.9675" y="198.19995" width="57.07788" height="128.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b7489e7f0001011bedb2d00020af8f</URIString>
-        <point1 x="497.5634" y="647.5178"/>
-        <point2 x="550.93933" y="853.7001"/>
+        <point1 x="1383.4675" y="198.69995"/>
+        <point2 x="1439.5454" y="325.69995"/>
         <ID1 xsi:type="node">20</ID1>
         <ID2 xsi:type="node">24</ID2>
     </child>
-    <child ID="29" layerID="1" created="1440251427990" x="-38.0"
-        y="-51.641357" width="616.0" height="231.5" strokeWidth="1.0"
+    <child ID="29" layerID="1" created="1440251427990" x="-228.0"
+        y="8.700012" width="616.0" height="231.5" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#ECFFD4</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -350,20 +350,20 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="30" label="look and feel" layerID="1"
-        created="1440251427993" x="577.5" y="155.48032"
-        width="152.12598" height="46.078568" strokeWidth="1.0"
+        created="1440251427993" x="387.5" y="215.36789"
+        width="212.01654" height="63.63211" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#8C8F72</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b748a77f0001011bedb2d08a8398e8</URIString>
-        <point1 x="729.126" y="201.05887"/>
-        <point2 x="578.0" y="155.9803"/>
+        <point1 x="599.01654" y="278.5"/>
+        <point2 x="388.0" y="215.86789"/>
         <ID1 xsi:type="node">7</ID1>
         <ID2 xsi:type="node">29</ID2>
     </child>
-    <child ID="42" layerID="1" created="1440251906987" x="320.18936"
-        y="-248.79999" width="604.75" height="139.75" strokeWidth="1.0"
+    <child ID="42" layerID="1" created="1440251906987" x="159.0"
+        y="-201.79999" width="604.75" height="139.75" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#ECFFD4</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -416,15 +416,15 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="51" label="Consolidated content" layerID="1"
-        created="1440251930004" x="643.6511" y="-109.55005"
-        width="121.0" height="133.61938" strokeWidth="1.0"
+        created="1440251930004" x="499.88098" y="-62.549988"
+        width="121.0" height="152.04999" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#8C8F72</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/55b748ae7f0001011bedb2d0d16fd5be</URIString>
-        <point1 x="743.8766" y="23.569336"/>
-        <point2 x="664.42566" y="-109.05005"/>
+        <point1 x="611.80756" y="89.0"/>
+        <point2 x="508.95438" y="-62.049988"/>
         <ID1 xsi:type="node">13</ID1>
         <ID2 xsi:type="node">42</ID2>
     </child>
@@ -432,7 +432,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/4fe858e510b3d16600b3589d62f40b84</URIString>
     </layer>
-    <userZoom>0.02197802197802198</userZoom>
+    <userZoom>0.6047087980173482</userZoom>
     <userOrigin x="-685.0" y="-292.05"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
